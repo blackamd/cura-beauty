@@ -16,7 +16,7 @@ AppAsset::register($this);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="<?= Yii::$app->charset ?>">
+       <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="<?= Url::to(['../frontend/web/images/favicon.ico'])?>" type="image/x-icon"/>
