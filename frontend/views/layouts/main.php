@@ -28,8 +28,7 @@ AppAsset::register($this);
     <?php $this->head() ?>
 </head>
 <body id="top" class="theme-slides"">
-<?php $this->beginBody() ?>
-    <header class="s-header">
+<header class="s-header">
     <div class="row s-header__content">
         <div class="s-header__logo">
             <a class="logo" href="<?= Url::to(['site/index'])?>">
@@ -70,6 +69,8 @@ AppAsset::register($this);
         </ul>
     </div> <!-- end s-header__content -->
 </header>
+<?php $this->beginBody() ?>
+
 <?= $content ?>
 <footer class="s-footer">
     <div class="row s-footer__top">
