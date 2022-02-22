@@ -37,9 +37,9 @@ use yii\helpers\Url;
                     </div>  <!-- end counter -->
 
                     <div class="s-intro__content-bottom">
-                        <h1 class="s-intro__content-title">Cure Beauty App is launching soon.</h1>
+                        <h1 class="s-intro__content-title">Test Cura Beauty App is launching soon.</h1>
                         <p>
-                            Cure Beauty App is a modern and stylish APP <br>
+                            Cura Beauty App is a modern and stylish APP <br>
                         APP created for launching your future awesome <br>
                         products and services. 
                         </p>
