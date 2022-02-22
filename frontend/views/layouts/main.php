@@ -26,11 +26,11 @@ AppAsset::register($this);
     <link rel="apple-touch-icon" sizes="180x180" href="<?= Url::to(['../frontend/web/images/apple-touch-icon.png'])?>">
     <link rel="icon" type="image/png" sizes="32x32" href="<?= Url::to(['../frontend/web/images/favicon-32x32.png'])?>">
     <link rel="icon" type="image/png" sizes="16x16" href="<?= Url::to(['../frontend/web/images/favicon-16x16.png'])?>">
-    <link rel="manifest" href="site.webmanifest">
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+<!--    <link rel="manifest" href="site.webmanifest">-->
+<!--    <script>-->
+<!--        document.documentElement.classList.remove('no-js');-->
+<!--        document.documentElement.classList.add('js');-->
+<!--    </script>-->
     <?php $this->registerCsrfMetaTags() ?>
     <title>CURE BEAUTY</title>
     <?php $this->head() ?>
