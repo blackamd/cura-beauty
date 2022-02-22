@@ -1,4 +1,4 @@
 <?php
 use yii\helpers\Url;
-header("location:frontend/index");
+//header("location:frontend/site/index");
 ?>
