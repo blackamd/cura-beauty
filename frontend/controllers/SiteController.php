@@ -51,6 +51,11 @@ class SiteController extends Controller
             ],
         ];
     }
+    public function beforeAction($action)
+    {
+        Yii::$app->controller->enableCsrfValidation = false;
+        return true;
+    }
 
     /**
      * {@inheritdoc}
