@@ -24,7 +24,7 @@ AppAsset::register($this);
         document.documentElement.classList.add('js');
     </script>
     <?php $this->registerCsrfMetaTags() ?>
-    <title>CURE BEAUTY</title>
+    <title>CURA BEAUTY</title>
     <?php $this->head() ?>
 </head>
 <body id="top" class="theme-slides"">
@@ -75,7 +75,7 @@ AppAsset::register($this);
 <footer class="s-footer">
     <div class="row s-footer__top">
         <div class="column lg-6 stack-on-700 s-footer__block s-footer__info">
-            <h4 class="h6">Cure Beauty</h4>
+            <h4 class="h6">Cura Beauty</h4>
 
             <p class="desc">
                 Beatae voluptatum reprehenderit et debitis consequatur. Quidem est velit hic culpa.
