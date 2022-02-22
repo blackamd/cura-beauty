@@ -18,6 +18,8 @@ class SiteController extends Controller
     }
     public function actionIndex()
     {
+        print_r("Hi");
+        exit();
        return $this->render('index');
     }
 }
